@@ -24,7 +24,7 @@ Run a Jupyter Notebook from a Docker container hosted on Ubuntu Cloud server.
   
   Now inside of running docker container:
   ```
-  jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root -v /path/to/notebooks:/path/to/notebooks
+  jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root -v /ServerFolderName:/ServerFolderName
   ```
   
   
